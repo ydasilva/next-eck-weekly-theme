@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "next-eck-weekly-theme",
+  "alias": "eck-gh-theme",
+  "builds": [
+    {"src": "package.json", "use": "@now/static-build"}
+  ]
+}
