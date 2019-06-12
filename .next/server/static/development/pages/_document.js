@@ -2141,13 +2141,13 @@ function (_Document) {
         className: "jsx-1795998894",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 6
+          lineNumber: 7
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_7__["Head"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 7
+          lineNumber: 8
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
@@ -2156,7 +2156,7 @@ function (_Document) {
         className: "jsx-1795998894",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8
+          lineNumber: 9
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
@@ -2164,7 +2164,7 @@ function (_Document) {
         className: "jsx-1795998894",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 10
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
@@ -2173,7 +2173,7 @@ function (_Document) {
         className: "jsx-1795998894",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
@@ -2182,7 +2182,7 @@ function (_Document) {
         className: "jsx-1795998894",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
@@ -2191,32 +2191,32 @@ function (_Document) {
         className: "jsx-1795998894",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("body", {
         className: "jsx-1795998894",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 15
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_7__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 16
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_7__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 17
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
         id: "1795998894",
         __self: this
-      }, "body{font-family:'Alegreya',serif;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy95b3Vzc291ZmRhc2lsdmEvUHJvamVjdHMvV2ViLVByb2plY3RzL25leHQtZWNrLXdlZWtseS10aGVtZS9wYWdlcy9fZG9jdW1lbnQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBaUIyQixBQUcyQyw2QkFDaEMiLCJmaWxlIjoiL1VzZXJzL3lvdXNzb3VmZGFzaWx2YS9Qcm9qZWN0cy9XZWItUHJvamVjdHMvbmV4dC1lY2std2Vla2x5LXRoZW1lL3BhZ2VzL19kb2N1bWVudC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBEb2N1bWVudCwgeyBIZWFkLCBNYWluLCBOZXh0U2NyaXB0IH0gZnJvbSAnbmV4dC9kb2N1bWVudCc7XG5cbmV4cG9ydCBkZWZhdWx0IGNsYXNzIE15RG9jdW1lbnQgZXh0ZW5kcyBEb2N1bWVudCB7XG4gIHJlbmRlcigpe1xuICAgIHJldHVybihcbiAgICAgIDxodG1sIGxhbmc9XCJlblwiPlxuICAgICAgICA8SGVhZD5cbiAgICAgICAgICA8bWV0YSBuYW1lPVwiZGVzY3JpcHRpb25cIiBjb250ZW50PVwiQSBTUEEgdGhhdCBmZXRjaGVzIHRoZSB0aGVtZSBvZiB0aGUgY3VycmVudCB3ZWVrIGFuZCBkaXNwbGF5cyBpdCBuaWNlbHlcIi8+XG4gICAgICAgICAgPG1ldGEgY2hhclNldD1cInV0Zi04XCIvPlxuICAgICAgICAgIDxtZXRhIG5hbWU9XCJyb2JvdHNcIiBjb250ZW50PVwibm9pbmRleCwgbm9mb2xsb3dcIiAvPlxuICAgICAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGhcIiAvPlxuICAgICAgICAgIDxsaW5rIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9QWxlZ3JleWE6NDAwLDcwMCZkaXNwbGF5PXN3YXBcIiByZWw9XCJzdHlsZXNoZWV0XCIvPlxuICAgICAgICA8L0hlYWQ+XG4gICAgICAgIDxib2R5PlxuICAgICAgICAgIDxNYWluIC8+XG4gICAgICAgICAgPE5leHRTY3JpcHQgLz5cbiAgICAgICAgPC9ib2R5PlxuICAgICAgICA8c3R5bGUgZ2xvYmFsIGpzeD57YFxuICAgICAgICAgIGJvZHl7XG4gICAgICAgICAgICBmb250LWZhbWlseTogJ0FsZWdyZXlhJywgc2VyaWY7XG4gICAgICAgICAgfVxuICAgICAgICBgfTwvc3R5bGU+XG4gICAgICA8L2h0bWw+XG4gICAgKVxuICB9XG59XG4iXX0= */\n/*@ sourceURL=/Users/youssoufdasilva/Projects/Web-Projects/next-eck-weekly-theme/pages/_document.js */"));
+      }, "body{font-family:'Alegreya',serif;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy95b3Vzc291ZmRhc2lsdmEvUHJvamVjdHMvV2ViLVByb2plY3RzL25leHQtZWNrLXdlZWtseS10aGVtZS9wYWdlcy9fZG9jdW1lbnQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBa0IyQixBQUcyQyw2QkFDaEMiLCJmaWxlIjoiL1VzZXJzL3lvdXNzb3VmZGFzaWx2YS9Qcm9qZWN0cy9XZWItUHJvamVjdHMvbmV4dC1lY2std2Vla2x5LXRoZW1lL3BhZ2VzL19kb2N1bWVudC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBEb2N1bWVudCwgeyBIZWFkLCBNYWluLCBOZXh0U2NyaXB0IH0gZnJvbSAnbmV4dC9kb2N1bWVudCc7XG5cbmV4cG9ydCBkZWZhdWx0IGNsYXNzIE15RG9jdW1lbnQgZXh0ZW5kcyBEb2N1bWVudCB7XG5cbiAgcmVuZGVyKCl7XG4gICAgcmV0dXJuKFxuICAgICAgPGh0bWwgbGFuZz1cImVuXCI+XG4gICAgICAgIDxIZWFkPlxuICAgICAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9XCJBIFNQQSB0aGF0IGZldGNoZXMgdGhlIHRoZW1lIG9mIHRoZSBjdXJyZW50IHdlZWsgYW5kIGRpc3BsYXlzIGl0IG5pY2VseVwiLz5cbiAgICAgICAgICA8bWV0YSBjaGFyU2V0PVwidXRmLThcIi8+XG4gICAgICAgICAgPG1ldGEgbmFtZT1cInJvYm90c1wiIGNvbnRlbnQ9XCJub2luZGV4LCBub2ZvbGxvd1wiIC8+XG4gICAgICAgICAgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aFwiIC8+XG4gICAgICAgICAgPGxpbmsgaHJlZj1cImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1BbGVncmV5YTo0MDAsNzAwJmRpc3BsYXk9c3dhcFwiIHJlbD1cInN0eWxlc2hlZXRcIi8+XG4gICAgICAgIDwvSGVhZD5cbiAgICAgICAgPGJvZHk+XG4gICAgICAgICAgPE1haW4gLz5cbiAgICAgICAgICA8TmV4dFNjcmlwdCAvPlxuICAgICAgICA8L2JvZHk+XG4gICAgICAgIDxzdHlsZSBnbG9iYWwganN4PntgXG4gICAgICAgICAgYm9keXtcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnQWxlZ3JleWEnLCBzZXJpZjtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvaHRtbD5cbiAgICApXG4gIH1cbn1cbiJdfQ== */\n/*@ sourceURL=/Users/youssoufdasilva/Projects/Web-Projects/next-eck-weekly-theme/pages/_document.js */"));
     }
   }]);
 

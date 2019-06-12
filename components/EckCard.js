@@ -1,6 +1,8 @@
 import { Component } from 'react';
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
+import { initGA, logPageView } from '../static/lib/analytics';
+
 var html2json = require('html2json').html2json;
 var sanitizeHtml = require('sanitize-html');
 
@@ -35,19 +37,42 @@ export default class EckCard extends Component {
         // console.log("author: ",json.child[0].child[4].child[1].child[0].text);
         // console.log("quote:  ",json.child[0].child[5].child[1].child[0].child[0].text);
         // console.log("     by:",json.child[0].child[5].child[1].child[2].child[0].text);
+        //
+        var finalData;
 
-        const finalData = {
-          "date"  : json.child[0].child[1].child[0].text,
-          "theme" : json.child[0].child[2].child[1].child[0].child[0].text,
-          "quote" : json.child[0].child[5].child[1].child[0].child[0].text,
-          "by"    : json.child[0].child[5].child[1].child[2].child[0].text
-        };
+        if (tab1 == -1 && tab2 == -1) {
+          finalData = {
+            "date"  : "~",
+            "theme" : "(>人<) Sorry! Please reload the page.",
+            "quote" : " ¯\_(ツ)_/¯",
+            "by"    : "The server was asleep."
+          };
+
+        } else {
+          finalData = {
+            "date"  : json.child[0].child[1].child[0].text,
+            "theme" : json.child[0].child[2].child[1].child[0].child[0].text,
+            "quote" : json.child[0].child[5].child[1].child[0].child[0].text,
+            "by"    : json.child[0].child[5].child[1].child[2].child[0].text
+          };
+        }
 
         this.setState({eckData: finalData});
+
         console.log("finished work - state is ready");
       })
       .catch(err => console.error(err));
 
+
+
+  }
+
+  componentDidMount () {
+    if (!window.GA_INITIALIZED) {
+      initGA()
+      window.GA_INITIALIZED = true
+    }
+    logPageView()
   }
 
   toggleQuote = () => {
