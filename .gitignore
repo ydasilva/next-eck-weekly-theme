@@ -6,3 +6,4 @@ coverage/
 node_modules/
 .next
 .env
+node_modules
